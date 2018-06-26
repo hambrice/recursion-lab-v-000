@@ -9,3 +9,10 @@ function printString(myString) {
   }
 }
 
+function reverseString(myString) {
+  if (myString.length > 1) {
+    return myString[myString.length] + reverseString(myString.substring(1, myString.length - 1));
+  } else {
+    return true
+  }
+}
