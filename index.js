@@ -14,7 +14,8 @@ function reverseString(myString) {
   let newString;
   if (myString.length > 1) {
     let newSubString = myString.substring(0, myString.length- 1)
-    return newString = myString[myString.length - 1] + reverseString(newSubString)
+    newString = myString[myString.length - 1] + reverseString(newSubString)
+    return newString;
   } else {
     return myString
   }
