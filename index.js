@@ -10,6 +10,7 @@ function printString(myString) {
 }
 
 function reverseString(myString) {
+  for (i)
   let newSubString = myString.substring(1, myString.length- 1)
   let newString = myString[myString.length] + newSubString
   if (myString.length > 1) {
